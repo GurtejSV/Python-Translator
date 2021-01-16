@@ -1,0 +1,12 @@
+- Improvements -
+1) Fixed the glitch with the two periods.
+2) Used a reverseDictionary(dictionary) function to create a dictionary in which the keys and values swap.
+3) Rather than having only hard coded strings to translate, the program takes a user input and translates it.
+4) Cases involving words that contained both capital and non-capital variants throughout the sentences taken into account and corrected.
+5) Support added to accommodate French words with special characters that have accents. (ÂÇÆÉÈÊËÏÎÔŒÙÛÜŸàâçæéèêëïîôœùûüÿ)
+6) Fixed occurrences where the word 'Je' ('I' in French) would be placed in front of a verb that contains a vowel as it's first character. (Ex. "Je [verb]" becomes "J'[verb]")
+7) Inclusion of a fix_j_apostrophe(s) function. When translating French to English, occurrences of J' will be translated correctly.
+8) Vocabulary increased to 50+ words.
+9) Output translations to a text file called 'output.txt'.
+10) The domain - most commonly used English words.
+11) Comments added.
